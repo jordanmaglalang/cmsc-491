@@ -142,6 +142,4 @@ cmsc-491/
 ```
 
 
-## 📌 Notes
 
-This project is intended for educational purposes as part of **CMSC 491** and serves as a foundation for retrieval-augmented generation (RAG) systems.
