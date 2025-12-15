@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Environment Variables
+### 4. Environment Variables
 
 This project uses an OpenAI API key stored in a `.env` file.
 
