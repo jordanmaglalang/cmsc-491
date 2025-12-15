@@ -93,26 +93,9 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 
 ---
 
-## 4. Text Data Setup
 
-Create a folder for text documents:
 
-```bash
-mkdir texts
-```
-
-Add one or more `.txt` files:
-
-```
-texts/
- └── nausea.txt
-```
-
-Each file will be loaded, chunked, and embedded.
-
----
-
-## 5.  Running the Project
+## 4.  Running the Project
 
 Run the vector pipeline:
 
@@ -143,7 +126,7 @@ cmsc-491/
 ├── vector.py
 ├── requirements.txt
 ├── .gitignore
-├── .env               # not committed
+├── .env               
 ├── texts/
 │   ├── nausea.txt
 │   ├── back_soreness.txt
@@ -155,28 +138,9 @@ cmsc-491/
 │   ├── sore_throat.txt
 │   ├── stuffy_nose.txt
 │   └── upset_stomach.txt
-├── venv/              # not committed
+├── venv/            
 ```
 
----
-
-## ⚠️ Security Notes
-
-* Never hardcode API keys
-* Never commit `.env`
-* Rotate your OpenAI key if it was ever exposed
-
----
-
-## 📚 Technologies Used
-
-* Python
-* OpenAI API
-* ChromaDB
-* NumPy
-* python-dotenv
-
----
 
 ## 📌 Notes
 
