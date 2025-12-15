@@ -10,7 +10,7 @@ It is designed to ingest `.txt` documents, chunk them, embed them, and query the
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Make sure you have the following installed:
 
@@ -119,7 +119,7 @@ The script will:
 
 ---
 
-## 🧠 Project Structure
+##  Project Structure
 
 ```
 cmsc-491/
