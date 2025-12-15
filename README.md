@@ -33,7 +33,7 @@ git --version
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cmsc-491.git
+git clone https://github.com/jordanmaglalang/cmsc-491.git
 cd cmsc-491
 ```
 
