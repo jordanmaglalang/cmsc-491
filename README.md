@@ -30,7 +30,7 @@ git --version
 
 ## Environment Setup
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/jordanmaglalang/cmsc-491.git
@@ -39,7 +39,7 @@ cd cmsc-491
 
 ---
 
-### 1. Create the virtual environment
+### 2. Create the virtual environment
 
 ```bash
 python -m venv venv
@@ -67,7 +67,7 @@ You should now see:
 
 ---
 
-### 2. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -75,11 +75,11 @@ pip install -r requirements.txt
 
 ---
 
-## 3. Environment Variables
+## 4. Environment Variables
 
 This project uses an OpenAI API key stored in a `.env` file.
 
-### 4. Create a `.env` file
+### 5. Create a `.env` file
 
 ```bash
 touch .env
@@ -95,7 +95,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-## 4.  Running the Project
+### 6.  Running the Project
 
 Run the vector pipeline:
 
