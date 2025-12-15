@@ -1,6 +1,6 @@
-# CMSC 491 – Vector Search & RAG Setup
+# CMSC 491 – HealthSymp
 
-This project demonstrates a basic **vector embedding and semantic search pipeline** using:
+This project demonstrates the experimental setup designed to test factual grounding on chain-of-thought and unstructured prompts by comparing them to the 10 symptoms each query is referring to. These symptoms are represented by several Mayo Clinic sources which were manually extracted for the RAG pipeline.
 
 * OpenAI embeddings
 * ChromaDB
@@ -28,7 +28,7 @@ git --version
 
 ---
 
-## 🚀 Environment Setup
+## Environment Setup
 
 ### 1️⃣ Clone the repository
 
@@ -39,7 +39,7 @@ cd cmsc-491
 
 ---
 
-### 2️⃣ Create a virtual environment
+### 1. Create the virtual environment
 
 ```bash
 python -m venv venv
@@ -67,7 +67,7 @@ You should now see:
 
 ---
 
-### 3️⃣ Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -75,11 +75,11 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Environment Variables
+## 3. Environment Variables
 
 This project uses an OpenAI API key stored in a `.env` file.
 
-### 4️⃣ Create a `.env` file
+### 4. Create a `.env` file
 
 ```bash
 touch .env
@@ -91,11 +91,9 @@ Add your API key:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-⚠️ **Do not commit this file** — it is ignored via `.gitignore`.
-
 ---
 
-## 📄 Text Data Setup
+## 4. Text Data Setup
 
 Create a folder for text documents:
 
@@ -114,7 +112,7 @@ Each file will be loaded, chunked, and embedded.
 
 ---
 
-## ▶️ Running the Project
+## 5.  Running the Project
 
 Run the vector pipeline:
 
